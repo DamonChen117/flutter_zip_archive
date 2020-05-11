@@ -19,6 +19,7 @@ A new Flutter plugin.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES',
         'GCC_PREPROCESSOR_DEFINITIONS' => 'HAVE_INTTYPES_H HAVE_PKCRYPT HAVE_STDINT_H HAVE_WZAES HAVE_ZLIB MZ_ZIP_NO_SIGNING' }
   s.dependency 'Flutter'
+  s.dependency 'SSZipArchive'
 
   s.ios.deployment_target = '8.0'
 end
